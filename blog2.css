@@ -1,0 +1,77 @@
+body {
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+.navbar {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  width: 100%;
+  position: sticky;
+  padding: 12px 0;
+  margin: 0;
+  top: 0;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15pt;
+  text-transform: capitalize;
+  z-index: 100;
+}
+.navitems {
+  color: white;
+  display: flex;
+  padding: 0 1em;
+  margin-right: 10px;
+  gap: 50px;
+  justify-content: space-between;
+}
+.logo {
+  padding: 5px;
+}
+
+.graynav {
+  background-color: rgb(238, 237, 237);
+  width: 100%;
+  display: block;
+  margin: 0;
+}
+.graynav h1 {
+  margin: 0 5px;
+  padding: 17px 0;
+}
+.card {
+  padding: 0;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardimg {
+  margin: auto;
+  z-index: 0;
+}
+
+.incard {
+  position: relative;
+  z-index: 1;
+  top: -75px;
+  height: 50%;
+  max-width: 35%;
+  margin: 0 auto;
+  border: none;
+  background-color: white;
+  border-radius: 25px;
+  padding: 0.5% 3.5%;
+  text-align: center;
+}
+.tags {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  font-size: small;
+}
